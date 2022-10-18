@@ -1,10 +1,13 @@
 node {
-    stage "Create build output"
+    stage "Build"
     
     echo "stage 1"
 
-    stage "Archive build output"
+    stage "Test"
     
     echo "stage 2"
 
+    stage "Deploy"
+    
+    echo "deployed"
 }
